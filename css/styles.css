@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 0;
+    background: url(../images/pattern-background-desktop.svg) no-repeat;
+    background-size: 100% 500px;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+/* CARD */
+.component {
+    background-color: white;
+    border-radius: 16px;
+    width: 450px;
+    height: 650px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+/* CARD-IMAGE */
+.component-img {
+    width: 450px;
+    height: 200px;
+    border-radius: 16px 16px 0 0;
+}
+
+/* CARD-PARAGRAPH */
+.component-info {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    padding: 0 42px;
+}
+
+/* CARD-ANNUAL-PLAN */
+.component-price {
+    background: hsl(225, 100%, 98%);
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    width: 370px;
+    height: 100px;
+    list-style: none;
+    position: relative;
+}
+
+.plan-item {
+    display: inline;
+}
+
+/* MUSIC-NOTE-IMAGE */
+.plan-item img {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+
+/* ANNUAL-TITLE */
+.plan-price {
+    position: absolute;
+    bottom: 30px;
+    left: 90px;
+}
+
+ /* PRICE-AND-YEAR */
+.plan-price__year {
+    color: hsl(225, 23%, 55%);
+    margin: 0;
+}
+
+.plan-item a {
+    position: absolute;
+    bottom: 41px;
+    right: 25px;
+}
+
+/* ANNUAL-CHANGE */
+.plan-item a:hover,
+.plan-item a:active {
+    color: rgb(147, 88, 243);
+}
+
+/* PROCEED-TO-PAYMENT */
+.payment-button {
+    background-color: hsl(245, 75%, 52%);
+    text-align: center;
+    margin: auto;
+    margin-top: 32px;
+    width: 370px;
+    height: 60px;
+    border-radius: 16px;
+    padding: 20px 0;
+    filter: drop-shadow(8px 8px 8px rgba(83, 81, 224, 0.515));
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.payment-button:hover, 
+.payment-button:active {
+    background-color: rgb(147, 88, 243);
+}
+
+
+/* CANCEL-ORDER */
+.cancel-order {
+    padding: 32px 0;
+    text-align: center;
+}
+.cancel {
+    text-decoration: none;
+    color: hsl(225, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel:hover, 
+.cancel:active {
+    color: black;
+}
+
+
+/* FOOTER */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 10px;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
